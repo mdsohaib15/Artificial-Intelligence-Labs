@@ -1,0 +1,32 @@
+
+
+Create virtual environment in command prompt
+-------------------------------------------------	
+python -m venv env	
+
+Using Desired Python version
+------------------------------------------------
+C:\python37\python.exe -m venv env 
+[path here]
+
+						
+Activate virtual environment in command prompt	
+------------------------------------------------
+.\env\Scripts\activate	
+
+
+To install the requirements
+-----------------------------------------------
+pip install -r requirements.txt
+
+
+To run python file 
+---------------------------------------------
+python app.py
+
+
+To run streamlit file 
+----------------------------------------------
+streamlit run app.py
+
+
